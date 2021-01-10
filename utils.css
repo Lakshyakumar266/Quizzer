@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bodoni+Moda:wght@500&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Redressed&family=Teko&family=Yusei+Magic&display=swap');
+
+/* https://fonts.google.com/specimen/Open+Sans+Condensed?sidebar.open=true&selection.family=Baloo+Bhai+2|Bodoni+Moda:wght@500|Open+Sans+Condensed:ital,wght@0,300;0,700;1,300|Redressed|Teko|Yusei+Magic */
+
+.Yusei_Magic{
+    font-family: 'Yusei Magic', sans-serif;
+}
+.teko{
+    font-family: 'Teko', sans-serif;
+}
+.Redressed{
+    font-family: 'Redressed', cursive;
+}
+.Baloo{
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.Bodoni{
+    font-family: 'Bodoni Moda', serif;
+}
+.Open-Sans{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 900;
+}
+.text-center{
+    text-align: center;
+}
+.br{
+    border: 2px solid #E8E8E8;
+}
+.w-auto{
+    width: auto;
+}
+.flex{
+    display: flex;
+}
+.flex-center{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.flex-warp{
+    flex-wrap: wrap;
+}
+.t-capitel{
+    text-transform: capitalize;
+}
+.t-t-upper{
+    text-transform: uppercase;
+}
+.h1{
+    font-size: 3rem;
+}
+.b-bottom{
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+.btn{
+    background: #3366CC;
+    padding: 5px 20px;
+    border-radius: 25px;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: whitesmoke;
+    transition: all 400ms ease-out;
+}
+.btn:hover{
+    background: #CC6633;
+    color: 	#282828;
+}
+.normal-font{
+    font-family: cursive;
+    font-weight: 900;
+}
