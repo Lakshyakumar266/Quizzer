@@ -48,10 +48,10 @@ area.innerHTML= ` ${marks_value} `;
 if (marks_value <= 5) {
     document.getElementById('cong').innerHTML = ` :( So Sad You Get: `
 }
-if (marks_value == 5) {
+else if (marks_value == 5) {
     document.getElementById('cong').innerHTML = `:( you shuld study more`;
 }
-if (marks_value == 10) {
+else if (marks_value == 10) {
     document.getElementById('cong').innerHTML = `WoW! You Got 10 out of 10 :)`;
 }
 
