@@ -50,27 +50,23 @@ xhr.onload = function () {
                 <div class="answer-option">
                     <div class="radio-group">
                         <i class="normal-font">1</i>
-                        <label for="option" class="Yusei_Magic">${element.incorrect_answers[0]}</label>
-                        <i class="normal-font">.</i>
-                        <input type="radio" name="option">
+                        <label for="option${index+1}" class="Yusei_Magic">${element.incorrect_answers[0]}</label>
+                        <input type="radio" name="option${index+1}">
                     </div>
                     <div class="radio-group">
                         <i class="normal-font">2.</i>
-                        <label for="option" class="Yusei_Magic">${element.incorrect_answers[1]}</label>
-                        <i class="normal-font">.</i>
-                        <input type="radio" name="option">
+                        <label for="option${index+1}" class="Yusei_Magic">${element.incorrect_answers[1]}</label>
+                        <input type="radio" name="option${index+1}">
                     </div>
                     <div class="radio-group">
                         <i class="normal-font">3.</i>
-                        <label for="option" class="Yusei_Magic">${element.correct_answer}</label>
-                        <i class="normal-font">.</i>
-                        <input type="radio" name="option">
+                        <label for="option${index+1}" class="Yusei_Magic">${element.correct_answer}</label>
+                        <input type="radio" name="option${index+1}">
                     </div>
                     <div class="radio-group">
                         <i class="normal-font">4.</i>
-                        <label for="option" class="Yusei_Magic">${element.incorrect_answers[2]}</label>
-                        <i class="normal-font">.</i>
-                        <input type="radio" name="option">
+                        <label for="option${index+1}" class="Yusei_Magic">${element.incorrect_answers[2]}</label>
+                        <input type="radio" name="option${index+1}">
                     </div>
                 </div>
             </div>
