@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.number {
+  background-color: bisque;
+  width: 50%;
+  margin: auto;
+  margin-top: 100px;
+  height: 50vh;
+}
+.container {
+  height: 90vh;
+  color: #010101;
+  font-size: 2rem;
+}
+.hr {
+  border-bottom: 2px solid rgb(37, 37, 37);
+}
+.small{
+    font-size: 1rem;
+    color: #ff0000;
+}
+.hr-fluid{
+    border-bottom: 2px solid rgb(37, 37, 37);
+    width: 10vw;
+    margin: auto;
+}

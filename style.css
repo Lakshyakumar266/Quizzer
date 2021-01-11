@@ -64,7 +64,7 @@ body{
     color: white;
     border: none;
     border-radius: 50px;
-    transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in;
     cursor: pointer;
 }
 .btn-sub:hover{
