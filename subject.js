@@ -6,11 +6,13 @@ let xhr = new XMLHttpRequest();
 
 var Url = window.location.search.slice(1);
 Url = Url.replace(/=/g, '":"');
+Url = Url.replace(/#/g, ' ');
 Url = '{"' + Url + '"}';
 let urlobj = JSON.parse(Url);
 
 let subject = document.getElementById('subject').innerHTML = urlobj.subject;
 console.log(urlobj);
+
 
 if (urlobj.subject == 'History') {
     console.log('History');
@@ -24,7 +26,7 @@ if (urlobj.subject == 'History') {
 } else if (urlobj.subject == 'general-knowledge') {
     console.log('general-knowledge');
     xhr.open('get', 'https://opentdb.com/api.php?amount=10&category=9&difficulty=easy&type=multiple');
-    let subjectChange = document.getElementById('subject').innerHTML = 'Genral Knoledge';
+    document.getElementById('subject').innerHTML = 'Genral Knoledge';
 }
 
 let paramitersplace = document.getElementById('quistions-place');
@@ -61,7 +63,7 @@ xhr.onload = function () {
                     <div class="radio-group">
                         <i class="normal-font">3.</i>
                         <label for="option${index+1}" class="Yusei_Magic">${element.correct_answer}</label>
-                        <input type="radio" name="option${index+1}">
+                        <input type="radio" name="option${index+1}correct">
                     </div>
                     <div class="radio-group">
                         <i class="normal-font">4.</i>
@@ -72,4 +74,11 @@ xhr.onload = function () {
             </div>
         `;
     }
+    paramitersplace.parentElement.innerHTML += ` 
+    <input type="submit" class="btn-sub Yusei_Magic" id="submit" value="Submit"> `;
 };
+
+
+function answer_check() {
+    
+}

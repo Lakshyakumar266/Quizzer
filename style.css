@@ -55,3 +55,19 @@ body{
 .footer a:hover{
     text-decoration: underline;
 }
+.btn-sub{
+    padding: 5px 20px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background: cyan;
+    width: 50%;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+}
+.btn-sub:hover{
+    background: rgb(240, 145, 4);
+    color: #000;
+}
