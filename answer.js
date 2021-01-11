@@ -51,6 +51,9 @@ if (marks_value <= 5) {
 if (marks_value == 5) {
     document.getElementById('cong').innerHTML = `:( you shuld study more`;
 }
+if (marks_value == 10) {
+    document.getElementById('cong').innerHTML = `WoW! You Got 10 out of 10 :)`;
+}
 
 console.log(marks_value);
 console.log(urlobj.option1correct);
