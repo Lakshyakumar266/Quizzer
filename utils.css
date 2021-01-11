@@ -1,72 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bodoni+Moda:wght@500&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Redressed&family=Teko&family=Yusei+Magic&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bodoni+Moda:wght@500&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Poppins:wght@300&family=Redressed&family=Teko&family=Yusei+Magic&display=swap");
 
 /* https://fonts.google.com/specimen/Open+Sans+Condensed?sidebar.open=true&selection.family=Baloo+Bhai+2|Bodoni+Moda:wght@500|Open+Sans+Condensed:ital,wght@0,300;0,700;1,300|Redressed|Teko|Yusei+Magic */
 
-.Yusei_Magic{
-    font-family: 'Yusei Magic', sans-serif;
+.Yusei_Magic {
+  font-family: "Yusei Magic", sans-serif;
 }
-.teko{
-    font-family: 'Teko', sans-serif;
+.teko {
+  font-family: "Teko", sans-serif;
 }
-.Redressed{
-    font-family: 'Redressed', cursive;
+.Redressed {
+  font-family: "Redressed", cursive;
 }
-.Baloo{
-    font-family: 'Baloo Bhai 2', cursive;
+.Baloo {
+  font-family: "Baloo Bhai 2", cursive;
 }
-.Bodoni{
-    font-family: 'Bodoni Moda', serif;
+.Poppins {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
 }
-.Open-Sans{
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: 900;
+.Bodoni {
+  font-family: "Bodoni Moda", serif;
 }
-.text-center{
-    text-align: center;
+.Open-Sans {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 900;
 }
-.br{
-    border: 2px solid #E8E8E8;
+.text-center {
+  text-align: center;
 }
-.w-auto{
-    width: auto;
+.br {
+  border: 2px solid #e8e8e8;
 }
-.flex{
-    display: flex;
+.w-auto {
+  width: auto;
 }
-.flex-center{
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+.flex {
+  display: flex;
 }
-.flex-warp{
-    flex-wrap: wrap;
+.flex-center {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
-.t-capitel{
-    text-transform: capitalize;
+.flex-warp {
+  flex-wrap: wrap;
 }
-.t-t-upper{
-    text-transform: uppercase;
+.t-capitel {
+  text-transform: capitalize;
 }
-.h1{
-    font-size: 3rem;
+.t-t-upper {
+  text-transform: uppercase;
 }
-.b-bottom{
-    border-bottom: 2px solid rgb(255, 255, 255);
+.h1 {
+  font-size: 3rem;
 }
-.btn{
-    background: #3366CC;
-    padding: 5px 20px;
-    border-radius: 25px;
-    font-size: 1.3rem;
-    text-decoration: none;
-    color: whitesmoke;
-    transition: all 400ms ease-out;
+.b-bottom {
+  border-bottom: 2px solid rgb(255, 255, 255);
 }
-.btn:hover{
-    background: #CC6633;
-    color: 	#282828;
+.btn {
+  background: #3366cc;
+  padding: 5px 20px;
+  border-radius: 25px;
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: whitesmoke;
+  transition: all 400ms ease-out;
 }
-.normal-font{
-    font-family: cursive;
-    font-weight: 900;
+.btn:hover {
+  background: #cc6633;
+  color: #282828;
+}
+.normal-font {
+  font-family: cursive;
+  font-weight: 900;
 }

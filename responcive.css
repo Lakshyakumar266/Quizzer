@@ -3,5 +3,15 @@
     .card-body {
         width: auto!important;
     }
-
+    .small {
+        display: none;
+    }
+    
+    .number {
+        width: 90%;
+    }
+    .small {
+        font-size: 12px;
+        color: #ff0000;
+    }
 }
