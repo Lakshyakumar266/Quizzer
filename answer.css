@@ -2,11 +2,14 @@
   margin: 0;
   padding: 0;
 }
+.heading{
+    margin-top: 100px;
+}
 .number {
   background-color: bisque;
   width: 50%;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 20px;
   height: 50vh;
 }
 .container {
