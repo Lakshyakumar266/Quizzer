@@ -77,8 +77,3 @@ xhr.onload = function () {
     paramitersplace.parentElement.innerHTML += ` 
     <input type="submit" class="btn-sub Yusei_Magic" id="submit" value="Submit"> `;
 };
-
-
-function answer_check() {
-    
-}
