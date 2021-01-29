@@ -45,11 +45,17 @@ if (urlobj.option10correct == "on") {
 let area = document.getElementById('area-marks');
 area.innerHTML= ` ${marks_value} `;
 
-if (marks_value <= 5) {
+if (marks_value == 0) {
+    document.getElementById('cong').innerHTML = ` :( I think You Are A Weak in This Subject `
+}
+else if (marks_value < 5) {
     document.getElementById('cong').innerHTML = ` :( So Sad You Get: `
 }
 else if (marks_value == 5) {
     document.getElementById('cong').innerHTML = `:( you shuld study more`;
+}
+else if (marks_value <= 9) {
+    document.getElementById('cong').innerHTML = `Good But Not The Best`;
 }
 else if (marks_value == 10) {
     document.getElementById('cong').innerHTML = `WoW! You Got 10 out of 10 :)`;

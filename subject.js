@@ -7,7 +7,9 @@ let xhr = new XMLHttpRequest();
 var Url = window.location.search.slice(1);
 Url = Url.replace(/=/g, '":"');
 Url = Url.replace(/#/g, ' ');
+Url = Url.replace(/&/g, '", "');
 Url = '{"' + Url + '"}';
+console.log(Url);
 let urlobj = JSON.parse(Url);
 
 let subject = document.getElementById('subject').innerHTML = urlobj.subject;
@@ -73,7 +75,12 @@ xhr.onload = function () {
                 </div>
             </div>
         `;
+        console.log('************************************');
+        /* all Options Inside a Array */
+        var ansArr = Array(element.incorrect_answers[0],element.incorrect_answers[1],element.
+        incorrect_answers[2],element.correct_answers)
     }
     paramitersplace.parentElement.innerHTML += ` 
     <input type="submit" class="btn-sub Yusei_Magic" id="submit" value="Submit"> `;
 };
+
